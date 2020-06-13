@@ -24,6 +24,8 @@ None
 
 Example Playbook
 ----------------
+
+```yml
 - hosts: raspberries
   
   vars:
@@ -33,9 +35,9 @@ Example Playbook
   roles:
     - role: geerlingguy.pip
     - role: ansible-docker_setup
- 
+```
 
 License
 -------
 
-MIT / BSD
+MIT
